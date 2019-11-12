@@ -1,0 +1,6 @@
+a=input("a kenar uzunluğu :")
+b=input("b kenar uzunluğu :")
+c=input("c kenar uzunluğu :")
+hacim=int(a)*int(b)*int(c)
+yuzeyAlan=2*(int(a)*int(b)+int(a)*int(c)+int(b)*int(c))
+print("Hacim: "+str(hacim)+"  Yüzey Alan: "+str(yuzeyAlan))
